@@ -36,6 +36,17 @@
             border-bottom: 3px solid #667eea;
         }
         
+        .logo-container {
+            margin-bottom: 20px;
+        }
+        
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        
         .logo {
             font-size: 2.5em;
             font-weight: bold;
@@ -108,13 +119,16 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="logo-container">
+                <img src="assets/neonthunder-logo.png" alt="NeonThunder Studio">
+            </div>
             <div class="logo">SyncStack</div>
             <h1>Política de Privacidade</h1>
         </div>
 
         <p><strong>Desenvolvedor:</strong> NeonThunder Studio<br>
         <strong>Contato:</strong> neonthunderstudio@gmail.com<br>
-        <strong>Última Atualização:</strong> 29 de novembro de 2025</p>
+        <strong>Última Atualização:</strong> 1 de dezembro de 2025</p>
 
         <h2>1. Introdução</h2>
         <p>Esta Política de Privacidade descreve como o SyncStack ("nós", "nosso" ou "o aplicativo") coleta, usa e protege as informações dos usuários.</p>
@@ -130,7 +144,7 @@
 
         <h3>2.2 Informações Fornecidas pelo Usuário (Opcional):</h3>
         <ul>
-            <li><strong>Autenticação Anônima:</strong> ID anônimo gerado pelo Firebase (não requer dados pessoais)</li>
+            <li><strong>Google Sign-In:</strong> E-mail e nome (para sincronização de progresso)</li>
             <li><strong>Dados de Compra:</strong> Informações de transações de compras in-app (processadas pelo Google Play)</li>
         </ul>
 
@@ -156,7 +170,7 @@
         <h2>5. Serviços de Terceiros</h2>
         
         <h3>5.1 Firebase (Google):</h3>
-        <p>Usamos Firebase para analytics e autenticação anônima.</p>
+        <p>Usamos Firebase para analytics e sincronização de dados.</p>
         <p>Política: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
 
         <h3>5.2 Google AdMob:</h3>
@@ -165,7 +179,7 @@
         <p>Você pode optar por não receber anúncios personalizados em: Configurações do Android > Google > Anúncios</p>
 
         <h2>6. Dados de Crianças</h2>
-        <p>Nosso aplicativo não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações de crianças. Se descobrirmos que coletamos dados de uma criança, deletaremos imediatamente.</p>
+        <p>Nosso aplicativo é classificado para maiores de 18 anos devido à presença de anúncios e compras in-app. Não coletamos intencionalmente informações de crianças menores de 13 anos.</p>
 
         <h2>7. Segurança de Dados</h2>
         <p>Implementamos medidas de segurança para proteger suas informações:</p>
@@ -180,7 +194,7 @@
         <p>Você tem direito a:</p>
         <ul>
             <li><strong>Acessar:</strong> Seus dados salvos localmente no dispositivo</li>
-            <li><strong>Deletar:</strong> Desinstalar o app remove todos os dados locais</li>
+            <li><strong>Deletar:</strong> Solicitar exclusão de dados (veja nossa <a href="data-deletion.html">Página de Exclusão de Dados</a>)</li>
             <li><strong>Optar por não receber:</strong> Anúncios personalizados (configurações do Android)</li>
             <li><strong>Revogar Permissões:</strong> Nas configurações do dispositivo</li>
         </ul>
@@ -190,6 +204,7 @@
             <li><strong>Dados Locais:</strong> Mantidos até desinstalação do app</li>
             <li><strong>Analytics:</strong> Retidos conforme política do Firebase (14 meses)</li>
             <li><strong>Compras:</strong> Retidas conforme política do Google Play</li>
+            <li><strong>Dados Inativos:</strong> Excluídos automaticamente após 90 dias de inatividade</li>
         </ul>
 
         <h2>10. Alterações nesta Política</h2>
@@ -198,15 +213,20 @@
         <h2>11. Contato</h2>
         <p>Para dúvidas sobre esta política, entre em contato:</p>
         <p><strong>Email:</strong> neonthunderstudio@gmail.com<br>
-        <strong>Desenvolvedor:</strong> NeonThunder Studio</p>
+        <strong>Desenvolvedor:</strong> NeonThunder Studio<br>
+        <strong>Localização:</strong> São Paulo, SP, Brasil</p>
 
         <div class="footer">
             <p>&copy; 2025 NeonThunder Studio. Todos os direitos reservados.</p>
-            <p><a href="index.html">Voltar à Página Inicial</a> | <a href="terms-of-service.html">Termos de Serviço</a></p>
+            <p>
+                <a href="index.html">Página Inicial</a> | 
+                <a href="terms-of-service.html">Termos de Serviço</a> | 
+                <a href="data-deletion.html">Exclusão de Dados</a>
+            </p>
         </div>
 
         <div class="updated">
-            Última atualização: 29 de novembro de 2025
+            Última atualização: 1 de dezembro de 2025
         </div>
     </div>
 </body>
